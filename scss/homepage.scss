@@ -1,0 +1,31 @@
+$containter-width: 100%;
+$container-height: 80%;
+$buffer-height: 100% - $container-height;
+$level-height: $container-height/5;
+
+$primary: #aa6339;
+
+$levelOne: #ef9fae;
+$levelTwo: #c76475;
+$levelThree: #9f3548;
+$levelFour: #781426;
+$levelFive: #50000e;
+
+$elementText: #c7c6c6;
+
+$darkenby: 10%;
+
+body {
+  background: $primary;
+}
+
+#headerElem {
+  color: $elementText;
+  height: $buffer-height;
+}
+
+hr {
+  height: 6px;
+  background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+  border: 0;
+}
